@@ -6,20 +6,20 @@
 <body>
 
   <!-- place the custom tag anywhere inside the body -->
-  <h1>Which kid do you love more?</h1>
-  <which-kid></which-kid>
+  <h1>Pick random item from list</h1>
+  <random-list></random-list>
 
   <!-- include riot.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.js"></script>
+  <script src="./jquery.min.js"></script>
+  <script src="./jquery-ui.min.js"></script>
+  <script src="./riot+compiler.js"></script>
   
   <!-- include the tag -->
-  <script src="./which-kid.js" type="riot/tag"></script>
+  <script src="./random-list.js" type="riot/tag"></script>
   
 
   <!-- mount the tag -->
-  <script>riot.mount('which-kid')</script>
+  <script>riot.mount('*')</script>
 
 </body>
 </html>
